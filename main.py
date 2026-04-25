@@ -23,12 +23,17 @@ def procesar_guia():
     root = ET.fromstring(contenido_xml)
     
     canales_interes = {
-        "La 1 HD": "La 1",
-        "Antena 3 HD": "Antena 3",
-        "Telecinco HD": "Telecinco",
-        "Cuatro HD": "Cuatro",
-        "laSexta HD": "La Sexta"
+    "La 1 HD": "La 1",
+    "La 2": "La 2",
+    "Antena 3 HD": "Antena 3",
+    "Telecinco HD": "Telecinco",
+    "Cuatro HD": "Cuatro",
+    "La Sexta HD": "La Sexta",
+    "Teledeporte": "Teledeporte",
+    "Telemadrid": "Telemadrid"
+
     }
+
     
     guia_por_dias = {}
     
